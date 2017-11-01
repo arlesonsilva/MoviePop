@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="15dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/colorPrimary"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="115dp"
+        android:layout_height="118dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_movie"
+        android:id="@+id/imageView"
+        android:layout_weight="0.58" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/header_txt_titulo"
+        android:text="MoviesPoP"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+</LinearLayout>

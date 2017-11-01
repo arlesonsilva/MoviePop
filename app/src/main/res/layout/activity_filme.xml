@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_filme_detalher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.arlesonls.moviespop.FilmeActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/activity_item_lista"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="152dp"
+                android:id="@+id/img_fime"
+                android:src="@mipmap/ic_launcher"
+                android:layout_height="150dp"
+                android:layout_marginTop="5dp" />
+            <TextView
+                android:layout_width="225dp"
+                android:layout_height="match_parent"
+                android:id="@+id/nome_filme"
+                android:textSize="18sp"
+                android:text="Nome do filme"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Sinopse do filme"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sinopse_filme"
+        android:textSize="16sp"
+        android:text="texto"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp" />
+
+</LinearLayout>
